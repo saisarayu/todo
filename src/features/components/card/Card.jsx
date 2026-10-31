@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import style from './Card.module.css';
 
 function Card({ title , description  }) {
@@ -9,5 +9,10 @@ function Card({ title , description  }) {
         </div>
     );
 }
+
+Card.propTypes = {
+    title: PropTypes.string,
+    description: PropTypes.string,
+};
 
 export default Card;

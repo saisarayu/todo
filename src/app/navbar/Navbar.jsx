@@ -1,4 +1,3 @@
-import React from 'react';
 import { LuListTodo } from "react-icons/lu";
 import style from './Navbar.module.css'
 
