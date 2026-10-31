@@ -1,6 +1,5 @@
 import React from 'react';
-import { useSelector , useDispatch } from 'react-redux';
-import { addNote , deleteNote } from './boardSlice';
+import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import style from './Board.module.css';
 import Card from '../components/card/Card';
